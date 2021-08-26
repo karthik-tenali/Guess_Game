@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="sylesheet.css" />
+  </head>
+  <body>
+    <section id="header">
+      <div id="details">
+        <h1>Guess My Number!</h1>
+        <p>(Between 1 and 20)</p>
+        <button class="again btn">Again!</button>
+      </div>
+      <div class="que-mark">?</div>
+    </section>
+
+    <section id="main">
+      <div class="left">
+        <input type="number" class="numbox" min="1" max="20" />
+        <button class="check btn">CHECK!</button>
+      </div>
+      <div class="right">
+        <p class="message">Start guessing...</p>
+        <p class="label-score">💯 Score: <span class="score">20</span></p>
+        <p class="label-highscore">
+          🥇 Highscore: <span class="highscore">0</span>
+        </p>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
